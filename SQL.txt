@@ -1,0 +1,9 @@
+
+CREATE TABLE clientes (
+	nome_cliente varchar(100) not null,
+	endereco_cliente varchar(200) not null,
+	cidade_cliente varchar(100) not null,
+	estado_cliente varchar(5) not null,
+	telefone_cliente varchar(25) not null,
+	comentarios_cliente varchar(200) not null,
+	PRIMARY KEY (telefone_cliente));
